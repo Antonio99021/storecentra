@@ -1,0 +1,9 @@
+sdk_path: "C:\\android-sdk"
+
+apksigner: "C:\\android-sdk\\build-tools\\33.0.2\\apksigner.bat"
+
+keystore: "keystore.jks"
+repo_keyalias: "storecentrakey"
+keystorepass: "123456"
+keypass: "123456"
+keydname: CN=storecentrakey, OU=F-Droid
