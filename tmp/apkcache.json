@@ -90,5 +90,83 @@
     "apkName": "Karmi_Flotillas_Android.apk",
     "icon": "com.mycompany.karmi_flotillas_android.392.png",
     "added": 1774732366.981887
+  },
+  "Karmi_Flotillas_AndroidACTUAL.apk": {
+    "hash": "03b8ba0a6d513ae75707fe865809e97a88252c0219f9b4fb1eac4bb463b9616b",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.NFC",
+        null
+      ],
+      [
+        "android.permission.INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [
+      "android.hardware.nfc",
+      "android.hardware.camera.autofocus",
+      "android.hardware.camera",
+      "android.hardware.wifi"
+    ],
+    "icons_src": {
+      "240": "res/drawable-hdpi-v4/i_c_o_n_e________2.png",
+      "120": "res/drawable-ldpi-v4/i_c_o_n_e________2.png",
+      "160": "res/drawable-mdpi-v4/i_c_o_n_e________2.png",
+      "320": "res/drawable-xhdpi-v4/i_c_o_n_e________2.png",
+      "480": "res/drawable-xxhdpi-v4/i_c_o_n_e________2.png",
+      "640": "res/drawable-xxxhdpi-v4/i_c_o_n_e________2.png",
+      "-1": "res/drawable-mdpi-v4/i_c_o_n_e________2.png"
+    },
+    "icons": {
+      "640": "com.mycompany.karmi_flotillas_android.345.png",
+      "480": "com.mycompany.karmi_flotillas_android.345.png",
+      "320": "com.mycompany.karmi_flotillas_android.345.png",
+      "240": "com.mycompany.karmi_flotillas_android.345.png",
+      "160": "com.mycompany.karmi_flotillas_android.345.png",
+      "120": "com.mycompany.karmi_flotillas_android.345.png",
+      "0": "com.mycompany.karmi_flotillas_android.345.png"
+    },
+    "antiFeatures": {},
+    "packageName": "com.mycompany.karmi_flotillas_android",
+    "versionCode": 345,
+    "name": "Karmi_Flotillas_Android",
+    "versionName": "3.6.1.2",
+    "minSdkVersion": 28,
+    "targetSdkVersion": 28,
+    "nativecode": [
+      "arm64-v8a",
+      "armeabi-v7a",
+      "x86",
+      "x86_64"
+    ],
+    "sig": "0b300e5d92733938391ae493c8da3b82",
+    "signer": "6e4f50973ff0feb8737304eb6571fafc131fdb3e8ee8ee9704cda9c9d5110099",
+    "size": 57934261,
+    "apkName": "Karmi_Flotillas_AndroidACTUAL.apk",
+    "icon": "com.mycompany.karmi_flotillas_android.345.png",
+    "added": 1774738930.613954
   }
 }
