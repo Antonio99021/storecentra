@@ -2,6 +2,10 @@ sdk_path: "C:\\android-sdk"
 
 apksigner: "C:\\android-sdk\\build-tools\\33.0.2\\apksigner.bat"
 
+repo_url: https://antonio99021.github.io/storecentra/repo
+
+repo_name: Soporte Centra
+
 keystore: "keystore.jks"
 repo_keyalias: "storecentrakey"
 keystorepass: "123456"
