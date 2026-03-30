@@ -8,10 +8,11 @@ repo_name: Soporte Centra
 
 repo_description: Repositorio oficial de aplicaciones.
 
+make_v1_website: true
+
 keystore: "keystore.jks"
 repo_keyalias: "storecentrakey"
 keystorepass: "123456"
 keypass: "123456"
 keydname: CN=storecentrakey, OU=F-Droid
 
-make_v1_website: true
