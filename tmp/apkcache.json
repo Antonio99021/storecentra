@@ -169,6 +169,122 @@
     "icon": "com.mycompany.karmi_flotillas_android.345.png",
     "added": 1774738930.0
   },
+  "NFMovil-3.2.5.apk": {
+    "hash": "90cb4bf5623b6d7149e1627057b67242a0b11faee323468a0e269f9afc77c801",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_ADMIN",
+        null
+      ],
+      [
+        "android.permission.NFC",
+        null
+      ],
+      [
+        "android.permission.CLOUDPOS_RFCARD",
+        null
+      ],
+      [
+        "android.permission.CLOUDPOS_MAGCARD",
+        null
+      ],
+      [
+        "android.permission.CLOUDPOS_PRINTER",
+        null
+      ],
+      [
+        "android.permission.CLOUDPOS_ICCARD",
+        null
+      ],
+      [
+        "android.permission.CPAYSDK_PRINTER_MODULE",
+        null
+      ],
+      [
+        "android.permission.CPAYSDK_SWIPE_MODULE",
+        null
+      ],
+      [
+        "android.permission.CPAYSDK_RF_MODULE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "thirdparty.smart.permission.DATA",
+        null
+      ],
+      [
+        "financial.smart.permission.DATA",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [
+      "android.hardware.nfc"
+    ],
+    "icons_src": {
+      "160": "res/drawable/logo_sm_round.png",
+      "-1": "res/drawable/logo_sm_round.png"
+    },
+    "icons": {
+      "160": "com.nexusfuel.nfvolumetricored.30205.png",
+      "0": "com.nexusfuel.nfvolumetricored.30205.png"
+    },
+    "antiFeatures": {},
+    "packageName": "com.nexusfuel.nfvolumetricored",
+    "versionCode": 30205,
+    "name": "NF M\u00f3vil",
+    "versionName": "3.2.5",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 27,
+    "nativecode": [
+      "armeabi",
+      "armeabi-v7a",
+      "x86"
+    ],
+    "sig": "42a2a74e217f939727f04362cb94923a",
+    "signer": "9f28d4e781bfff3a572763865f2b30f33e22be8c0de09e025b48ae2dcff403fd",
+    "size": 10403993,
+    "apkName": "NFMovil-3.2.5.apk",
+    "icon": "com.nexusfuel.nfvolumetricored.30205.png",
+    "added": 1774888952.688545
+  },
   "NFMovil-3.5.6.apk": {
     "hash": "fc90adb9e3bd9048980e1e25b6d7cbdb152f167fbc045e8ae358504301dbb83b",
     "hashType": "sha256",
@@ -283,151 +399,6 @@
     "size": 11104174,
     "apkName": "NFMovil-3.5.6.apk",
     "icon": "com.nexusfuel.nfvolumetricored.30506.png",
-    "added": 1774752171.587882
-  },
-  "NFMovil-3.9.19.apk": {
-    "hash": "e70441846a30dd934014eca82bbfb8163d0ad18518dac18361264c0e3b104ceb",
-    "hashType": "sha256",
-    "uses-permission": [
-      [
-        "android.permission.INTERNET",
-        null
-      ],
-      [
-        "android.permission.CAMERA",
-        null
-      ],
-      [
-        "android.permission.BLUETOOTH",
-        null
-      ],
-      [
-        "android.permission.BLUETOOTH_ADMIN",
-        null
-      ],
-      [
-        "android.permission.NFC",
-        null
-      ],
-      [
-        "android.permission.CLOUDPOS_RFCARD",
-        null
-      ],
-      [
-        "android.permission.CLOUDPOS_MAGCARD",
-        null
-      ],
-      [
-        "android.permission.CLOUDPOS_PRINTER",
-        null
-      ],
-      [
-        "android.permission.CLOUDPOS_ICCARD",
-        null
-      ],
-      [
-        "android.permission.CPAYSDK_PRINTER_MODULE",
-        null
-      ],
-      [
-        "android.permission.CPAYSDK_SWIPE_MODULE",
-        null
-      ],
-      [
-        "android.permission.CPAYSDK_RF_MODULE",
-        null
-      ],
-      [
-        "android.permission.WRITE_EXTERNAL_STORAGE",
-        null
-      ],
-      [
-        "android.permission.READ_EXTERNAL_STORAGE",
-        null
-      ],
-      [
-        "android.permission.QUERY_ALL_PACKAGES",
-        null
-      ],
-      [
-        "thirdparty.smart.permission.DATA",
-        null
-      ],
-      [
-        "financial.smart.permission.DATA",
-        null
-      ],
-      [
-        "com.pax.permission.PRINTER",
-        null
-      ],
-      [
-        "com.pax.permission.PICC",
-        null
-      ],
-      [
-        "android.permission.ACCESS_NETWORK_STATE",
-        null
-      ],
-      [
-        "android.permission.HIDE_UNINSTALL_PACKAGES",
-        null
-      ],
-      [
-        "android.permission.HIDE_INSTALL_PACKAGES",
-        null
-      ],
-      [
-        "android.permission.SYSTEM_ALERT_WINDOW",
-        null
-      ],
-      [
-        "android.permission.WAKE_LOCK",
-        null
-      ],
-      [
-        "com.google.android.gms.permission.AD_ID",
-        null
-      ],
-      [
-        "com.google.android.providers.gsf.permission.READ_GSERVICES",
-        null
-      ],
-      [
-        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
-        null
-      ],
-      [
-        "com.nexusfuel.nfvolumetricored.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-        null
-      ]
-    ],
-    "uses-permission-sdk-23": [],
-    "features": [
-      "android.hardware.nfc"
-    ],
-    "icons_src": {},
-    "icons": {},
-    "antiFeatures": {},
-    "packageName": "com.nexusfuel.nfvolumetricored",
-    "versionCode": 30919,
-    "name": "NF M\u00f3vil",
-    "versionName": "3.9.19",
-    "minSdkVersion": 27,
-    "targetSdkVersion": 27,
-    "nativecode": [
-      "arm64-v8a",
-      "armeabi",
-      "armeabi-v7a",
-      "mips",
-      "mips64",
-      "x86",
-      "x86_64"
-    ],
-    "sig": "42a2a74e217f939727f04362cb94923a",
-    "signer": "9f28d4e781bfff3a572763865f2b30f33e22be8c0de09e025b48ae2dcff403fd",
-    "size": 30174136,
-    "apkName": "NFMovil-3.9.19.apk",
-    "added": 1774888113.754685
+    "added": 1774752171.0
   }
 }
