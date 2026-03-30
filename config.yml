@@ -10,6 +10,10 @@ repo_description: Repositorio oficial de aplicaciones.
 
 make_v1_website: true
 
+java_path: "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot"
+keytool: "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin\\keytool.exe"
+jarsigner: "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.18.8-hotspot\\bin\\jarsigner.exe"
+
 keystore: "keystore.jks"
 repo_keyalias: "storecentrakey"
 keystorepass: "123456"
