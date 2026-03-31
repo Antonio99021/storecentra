@@ -89,7 +89,7 @@
     "size": 89279040,
     "apkName": "Karmi_Flotillas_Android.apk",
     "icon": "com.mycompany.karmi_flotillas_android.392.png",
-    "added": 1774970679.838005
+    "added": 1774970679.0
   },
   "NFMovil-3.2.5.apk": {
     "hash": "90cb4bf5623b6d7149e1627057b67242a0b11faee323468a0e269f9afc77c801",
@@ -205,7 +205,7 @@
     "size": 10403993,
     "apkName": "NFMovil-3.2.5.apk",
     "icon": "com.nexusfuel.nfvolumetricored.30205.png",
-    "added": 1774970681.137994
+    "added": 1774970681.0
   },
   "NFMovil-3.5.6.apk": {
     "hash": "fc90adb9e3bd9048980e1e25b6d7cbdb152f167fbc045e8ae358504301dbb83b",
@@ -321,6 +321,6 @@
     "size": 11104174,
     "apkName": "NFMovil-3.5.6.apk",
     "icon": "com.nexusfuel.nfvolumetricored.30506.png",
-    "added": 1774970682.474466
+    "added": 1774970682.0
   }
 }
