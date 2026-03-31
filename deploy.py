@@ -1,41 +1,41 @@
 import os
 import subprocess
-import time
 
 def run_fdroid(config_file):
     if not os.path.exists(config_file):
-        print(f"Saltando {config_file}: No existe el archivo.")
+        print(f"--- Saltando {config_file}: No existe el archivo ---")
         return
 
     print(f"--- Procesando con: {config_file} ---")
     
-    # Si ya existe un config.yml, lo borramos para que no choque
+    # Limpieza previa por si acaso
     if os.path.exists("config.yml"):
         os.remove("config.yml")
         
-    # Renombramos el archivo al nombre que fdroid espera
+    # Renombrar para que fdroid lo reconozca
     os.rename(config_file, "config.yml")
     
     try:
-        # Ejecutamos el update
-        subprocess.run(["fdroid", "update", "-c", "--clean"], check=True)
+        # Ejecutamos el update (añadimos shell=True para Windows)
+        subprocess.run("fdroid update -c --clean", shell=True, check=True)
+    except Exception as e:
+        print(f"Error en fdroid update: {e}")
     finally:
-        # Siempre regresamos el archivo a su nombre original
+        # ESTO ES LO IMPORTANTE: Siempre regresa el nombre original
         if os.path.exists("config.yml"):
             os.rename("config.yml", config_file)
+            print(f"--- {config_file} restaurado correctamente ---")
 
-# 1. Procesar Oficial (Asegúrate que el archivo se llame así)
+# 1. Ejecutar procesos
 run_fdroid("config_oficial.yml")
-
-# 2. Procesar Pruebas
 run_fdroid("config_pruebas.yml")
 
-# 3. Subir a GitHub
-print("--- Subiendo a GitHub ---")
+# 2. Subir a GitHub (Solo si quieres que el script lo haga)
+print("--- Intentando subir a GitHub ---")
 try:
-    subprocess.run(["git", "add", "."], check=True)
-    subprocess.run(["git", "commit", "-m", "Update automatico Oficial y Pruebas"], check=True)
-    subprocess.run(["git", "push", "origin", "main"], check=True)
-    print("¡Todo listo y en internet!")
+    subprocess.run("git add .", shell=True, check=True)
+    subprocess.run('git commit -m "Update automatico"', shell=True, check=True)
+    subprocess.run("git push origin main", shell=True, check=True)
+    print("¡Todo en internet!")
 except Exception as e:
-    print(f"Error al subir a Git: {e}")
+    print
