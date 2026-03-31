@@ -5,20 +5,58 @@
     "--clean"
   ],
   "fdroiddata": {
-    "commitId": "fa4cfe840cac9b46f26dddf6be73057057295675",
-    "isDirty": false,
-    "modifiedFiles": [],
-    "untrackedFiles": []
+    "commitId": "2e07f8420daa8cf98e7f4e014d8b34efc9c70c1c",
+    "isDirty": true,
+    "modifiedFiles": [
+      "repo/status/running.json"
+    ],
+    "untrackedFiles": [
+      "repo/Karmi_Flotillas_Android.apk",
+      "repo/NFMovil-3.5.6.apk",
+      "repo/entry.jar",
+      "repo/entry.json",
+      "repo/icons-120/com.mycompany.karmi_flotillas_android.345.png",
+      "repo/icons-120/com.mycompany.karmi_flotillas_android.392.png",
+      "repo/icons-120/com.nexusfuel.nfvolumetricored.30506.png",
+      "repo/icons-160/com.mycompany.karmi_flotillas_android.345.png",
+      "repo/icons-160/com.mycompany.karmi_flotillas_android.392.png",
+      "repo/icons-160/com.nexusfuel.nfvolumetricored.30506.png",
+      "repo/icons-240/com.mycompany.karmi_flotillas_android.345.png",
+      "repo/icons-240/com.mycompany.karmi_flotillas_android.392.png",
+      "repo/icons-240/com.nexusfuel.nfvolumetricored.30506.png",
+      "repo/icons-320/com.mycompany.karmi_flotillas_android.345.png",
+      "repo/icons-320/com.mycompany.karmi_flotillas_android.392.png",
+      "repo/icons-320/com.nexusfuel.nfvolumetricored.30506.png",
+      "repo/icons-480/com.mycompany.karmi_flotillas_android.345.png",
+      "repo/icons-480/com.mycompany.karmi_flotillas_android.392.png",
+      "repo/icons-480/com.nexusfuel.nfvolumetricored.30506.png",
+      "repo/icons-640/com.mycompany.karmi_flotillas_android.345.png",
+      "repo/icons-640/com.mycompany.karmi_flotillas_android.392.png",
+      "repo/icons-640/com.nexusfuel.nfvolumetricored.30506.png",
+      "repo/icons/com.mycompany.karmi_flotillas_android.345.png",
+      "repo/icons/com.mycompany.karmi_flotillas_android.392.png",
+      "repo/icons/com.nexusfuel.nfvolumetricored.30506.png",
+      "repo/icons/icon.png",
+      "repo/index-v1.jar",
+      "repo/index-v1.json",
+      "repo/index-v2.json",
+      "repo/index.css",
+      "repo/index.html",
+      "repo/index.jar",
+      "repo/index.png",
+      "repo/index.xml",
+      "repo/status/update.json"
+    ]
   },
   "stages": {
-    "delete_disabled_builds": 1774975603607,
-    "index.make repo": 1774975603620,
-    "prepare_apps repo": 1774975603617,
-    "process_apks": 1774975603608,
-    "read_added_date_from_all_apks": 1774975603616,
-    "remove_apks": 1774975603616,
-    "scan_repo_files": 1774975603614
+    "delete_disabled_builds": 1774975683876,
+    "index.make repo": 1774975691415,
+    "prepare_apps repo": 1774975691411,
+    "process_apks": 1774975683877,
+    "read_added_date_from_all_apks": 1774975691410,
+    "remove_apks": 1774975691397,
+    "scan_repo_files": 1774975691392
   },
-  "startTimestamp": 1775000803000,
+  "startTimestamp": 1775000883000,
   "subcommand": "update"
 }
