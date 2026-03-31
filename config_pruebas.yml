@@ -8,7 +8,7 @@ repo_name: REPO PRUEBAS
 
 repo_description: Repositorio de test para soporte técnico.
 
-repo_dir: repo
+repo_dir: pruebas/repo
 
 make_v1_website: true
 
